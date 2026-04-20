@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Comp_Sci_Fundamentals.iml" filepath="$PROJECT_DIR$/Comp_Sci_Fundamentals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructuresAndAlgorithms/DataStructuresAndAlgorithms.iml" filepath="$PROJECT_DIR$/DataStructuresAndAlgorithms/DataStructuresAndAlgorithms.iml" />
+    </modules>
+  </component>
+</project>
