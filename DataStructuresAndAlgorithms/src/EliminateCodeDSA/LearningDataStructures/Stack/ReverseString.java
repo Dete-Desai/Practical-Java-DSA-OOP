@@ -1,4 +1,4 @@
-package EliminateCodeDSA.LearningDataStructures.Stack;
+package LearningDataStructures.Stack;
 
 public class ReverseString {
     public static void main(String[] args) {

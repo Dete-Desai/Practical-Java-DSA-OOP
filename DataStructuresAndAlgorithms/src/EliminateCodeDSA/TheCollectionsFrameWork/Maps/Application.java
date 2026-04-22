@@ -1,4 +1,4 @@
-package EliminateCodeDSA.TheCollectionsFrameWork.Maps;
+package TheCollectionsFrameWork.Maps;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -14,7 +14,7 @@ public class Application {
         hashMap.put("Plane", "Mode of transport that flies in the air");
         hashMap.put("Ship", "Mode of transport that uses the water");
 
-        for (Map.Entry<String, String> map : hashMap.entrySet()){
+        for (Map.Entry<String, String> map : hashMap.entrySet()) {
             System.out.println(map.getKey() + ": " + map.getValue());
         }
 
@@ -25,7 +25,7 @@ public class Application {
         linkedHashMap.put("Plane", "Mode of transport that flies in the air");
         linkedHashMap.put("Ship", "Mode of transport that uses the water");
 
-        for(Map.Entry<String, String> map : linkedHashMap.entrySet()){
+        for (Map.Entry<String, String> map : linkedHashMap.entrySet()) {
             System.out.println(map.getKey() + ": " + map.getValue());
         }
 
@@ -36,8 +36,7 @@ public class Application {
         treeMap.put("Ship", "Mode of transport that uses the water");
         treeMap.put("Ship", "Mode of transport that uses the water");
 
-
-        for(Map.Entry<String, String> map : treeMap.entrySet()){
+        for (Map.Entry<String, String> map : treeMap.entrySet()) {
             System.out.println(map.getKey() + ": " + map.getValue());
         }
     }

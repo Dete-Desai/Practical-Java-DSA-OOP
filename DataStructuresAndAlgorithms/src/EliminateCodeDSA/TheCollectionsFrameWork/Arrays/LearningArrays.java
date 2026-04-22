@@ -1,14 +1,14 @@
-package EliminateCodeDSA.TheCollectionsFrameWork.Arrays;
+package TheCollectionsFrameWork.Arrays;
 
 public class LearningArrays {
-    public static void main(String[] args){
-        int [] values = new int[100];
-        String [] characters = new String[] {"null", "null"};
+    public static void main(String[] args) {
+        int[] values = new int[100];
+        String[] characters = new String[] { "null", "null" };
 
         values[0] = 1000;
         values[99] = 93432;
-        characters[0] = "The first code is: "+values[0];
-        characters[1] = "The last code is: "+values[values.length-1];
+        characters[0] = "The first code is: " + values[0];
+        characters[1] = "The last code is: " + values[values.length - 1];
 
         System.out.println(values[0]);
         System.out.println(values[99]);

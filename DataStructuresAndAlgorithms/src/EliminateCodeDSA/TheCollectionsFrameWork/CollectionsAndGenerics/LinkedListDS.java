@@ -1,9 +1,9 @@
-package EliminateCodeDSA.TheCollectionsFrameWork.CollectionsAndGenerics;
+package TheCollectionsFrameWork.CollectionsAndGenerics;
 
 import java.util.LinkedList;
 
 public class LinkedListDS {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         LinkedList linkedList1 = new LinkedList();
         LinkedList<String> linkedList2 = new LinkedList<String>();
         LinkedList<Double> linkedList3 = new LinkedList<Double>();
@@ -13,7 +13,7 @@ public class LinkedListDS {
         linkedList1.add(6.2);
 
         System.out.println("The linked List 1 contains the following: " + linkedList1);
-        System.out.println("The linked List 1 data at the last index is: " + linkedList1.get(linkedList1.size()-1));
+        System.out.println("The linked List 1 data at the last index is: " + linkedList1.get(linkedList1.size() - 1));
 
         linkedList1.remove(2);
         String linkedList1Item1 = (String) linkedList1.get(0);

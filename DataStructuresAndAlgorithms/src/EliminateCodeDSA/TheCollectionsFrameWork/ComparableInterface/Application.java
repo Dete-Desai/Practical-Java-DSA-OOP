@@ -1,4 +1,4 @@
-package EliminateCodeDSA.TheCollectionsFrameWork.ComparableInterface;
+package TheCollectionsFrameWork.ComparableInterface;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -16,7 +16,7 @@ public class Application {
 
         Collections.sort(arrayList);
 
-        for (Employee employee: arrayList){
+        for (Employee employee : arrayList) {
             System.out.println(employee);
         }
     }

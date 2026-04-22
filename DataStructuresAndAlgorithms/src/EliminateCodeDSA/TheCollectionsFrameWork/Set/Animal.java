@@ -1,4 +1,4 @@
-package EliminateCodeDSA.TheCollectionsFrameWork.Set;
+package TheCollectionsFrameWork.Set;
 
 public class Animal {
     String animalName;
@@ -10,12 +10,12 @@ public class Animal {
     }
 
     @Override
-    public String toString(){
-        return "Animals Bio: [\n Name: "+animalName+", \n Age: "+animalAge+"\n]";
+    public String toString() {
+        return "Animals Bio: [\n Name: " + animalName + ", \n Age: " + animalAge + "\n]";
     }
 
     @Override
-    public int hashCode(){
+    public int hashCode() {
         final int prime = 31;
         int result = 1;
         result = prime * result + animalAge;
@@ -25,7 +25,7 @@ public class Animal {
     }
 
     @Override
-    public boolean equals(Object obj){
+    public boolean equals(Object obj) {
         if (this == obj)
             return true;
         if (obj == null)
@@ -37,6 +37,7 @@ public class Animal {
             return false;
         if (animalName == null) {
             return other.animalName == null;
-        }  else return animalName.equals(other.animalName);
+        } else
+            return animalName.equals(other.animalName);
     }
 }

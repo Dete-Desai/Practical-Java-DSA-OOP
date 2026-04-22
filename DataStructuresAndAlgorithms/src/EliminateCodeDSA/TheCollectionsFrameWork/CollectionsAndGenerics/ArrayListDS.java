@@ -1,9 +1,9 @@
-package EliminateCodeDSA.TheCollectionsFrameWork.CollectionsAndGenerics;
+package TheCollectionsFrameWork.CollectionsAndGenerics;
 
 import java.util.ArrayList;
 
 public class ArrayListDS {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         ArrayList arrayList1 = new ArrayList();
         ArrayList<String> arrayList2 = new ArrayList<String>();
         ArrayList<Integer> arrayList3 = new ArrayList<Integer>();
@@ -14,7 +14,7 @@ public class ArrayListDS {
         arrayList1.add(6.2);
 
         System.out.println("The array List 1 contains the following: " + arrayList1);
-        System.out.println("The array List 1 data at the last index is: " + arrayList1.get(arrayList1.size()-1));
+        System.out.println("The array List 1 data at the last index is: " + arrayList1.get(arrayList1.size() - 1));
 
         arrayList1.remove(3);
         String arrayList1Item1 = (String) arrayList1.get(0);

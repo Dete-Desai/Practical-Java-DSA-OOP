@@ -1,7 +1,7 @@
-package EliminateCodeDSA.LearningDataStructures.Stack;
+package LearningDataStructures.Stack;
 
 public class App {
-    public static void main(String [] args){
+    public static void main(String[] args) {
         Stack theStack = new Stack(3);
 
         theStack.push(10);
@@ -11,7 +11,7 @@ public class App {
 
         System.out.println("The stack output is as shown below:");
 
-        while(!theStack.isEmpty()) {
+        while (!theStack.isEmpty()) {
             System.out.println(theStack.pop());
         }
 

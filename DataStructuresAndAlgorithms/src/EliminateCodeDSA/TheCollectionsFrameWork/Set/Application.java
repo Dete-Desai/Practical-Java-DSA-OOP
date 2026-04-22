@@ -1,11 +1,11 @@
-package EliminateCodeDSA.TheCollectionsFrameWork.Set;
+package TheCollectionsFrameWork.Set;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class Application {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("HASH SET CLASS DATA\n");
 
         HashSet<String> stringSet = new HashSet<String>();
@@ -17,7 +17,7 @@ public class Application {
         stringSet.add("Brazil");
         stringSet.add("Brazil");
 
-        for(String set: stringSet){
+        for (String set : stringSet) {
             System.out.println(set);
         }
 
@@ -26,7 +26,7 @@ public class Application {
         integerSet.add(1);
         integerSet.add(1);
 
-        for(Integer set: integerSet){
+        for (Integer set : integerSet) {
             System.out.println(set);
         }
 
@@ -35,7 +35,7 @@ public class Application {
         animalSet.add(new Animal("Horse", 3));
         animalSet.add(new Animal("Horse", 3));
 
-        for (Animal animal: animalSet){
+        for (Animal animal : animalSet) {
             System.out.println(animal);
         }
 
@@ -49,7 +49,7 @@ public class Application {
         stringLinkedSet.add("Brazil");
         stringLinkedSet.add("Brazil");
 
-        for(String set: stringLinkedSet){
+        for (String set : stringLinkedSet) {
             System.out.println(set);
         }
 
@@ -58,7 +58,7 @@ public class Application {
         integerLinkedSet.add(1);
         integerLinkedSet.add(1);
 
-        for(Integer set: integerLinkedSet){
+        for (Integer set : integerLinkedSet) {
             System.out.println(set);
         }
 
@@ -67,10 +67,9 @@ public class Application {
         animalLinkedSet.add(new Animal("Horse", 3));
         animalLinkedSet.add(new Animal("Horse", 3));
 
-        for (Animal animal: animalLinkedSet){
+        for (Animal animal : animalLinkedSet) {
             System.out.println(animal);
         }
     }
-
 
 }

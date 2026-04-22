@@ -1,4 +1,4 @@
-package EliminateCodeDSA.TheCollectionsFrameWork.TraversingListsAndCustomTypes;
+package TheCollectionsFrameWork.TraversingListsAndCustomTypes;
 
 public class Vehicle {
     String make;
@@ -9,10 +9,11 @@ public class Vehicle {
     int milage;
 
     public String toString() {
-        return "Vehicle Properties [\nMake: "+make+", \nModel: "+model+",  \nColor: "+color+", \nPrice: "+price+", \nCondition: "+isNew+", \nMilage: "+milage+"\n]";
+        return "Vehicle Properties [\nMake: " + make + ", \nModel: " + model + ",  \nColor: " + color + ", \nPrice: "
+                + price + ", \nCondition: " + isNew + ", \nMilage: " + milage + "\n]";
     }
 
-    public Vehicle(String make, String model, String color, int price,  boolean condition, int milage) {
+    public Vehicle(String make, String model, String color, int price, boolean condition, int milage) {
         super();
         this.make = make;
         this.model = model;
@@ -66,7 +67,7 @@ public class Vehicle {
         return milage;
     }
 
-    public void setMilage(int theMilage){
+    public void setMilage(int theMilage) {
         this.milage = theMilage;
     }
 }

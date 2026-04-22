@@ -1,8 +1,8 @@
-package EliminateCodeDSA.LearningDataStructures.Stack;
+package LearningDataStructures.Stack;
 
 public class Stack {
     public int maxSize;
-    public long [] stackArray;
+    public long[] stackArray;
     public int top;
 
     public Stack(int size) {
@@ -12,7 +12,7 @@ public class Stack {
     }
 
     public boolean isFull() {
-        return (top == maxSize-1);
+        return (top == maxSize - 1);
     }
 
     public boolean isEmpty() {
@@ -20,7 +20,7 @@ public class Stack {
     }
 
     public void push(int j) {
-        if(!isFull()) {
+        if (!isFull()) {
             top++;
             stackArray[top] = j;
         } else {
@@ -29,7 +29,7 @@ public class Stack {
     }
 
     public long pop() {
-        if(!isEmpty()){
+        if (!isEmpty()) {
             int old_top = top;
             top--;
             return stackArray[old_top];

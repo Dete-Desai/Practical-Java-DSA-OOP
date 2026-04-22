@@ -1,7 +1,7 @@
-package EliminateCodeDSA.LearningDataStructures.AbstractDataTypes;
+package LearningDataStructures.AbstractDataTypes;
 
 public class App {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Counter myCounter = new Counter("My Counter");
 
         myCounter.increment();

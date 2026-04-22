@@ -1,11 +1,11 @@
-package EliminateCodeDSA.TheCollectionsFrameWork.TraversingListsAndCustomTypes;
+package TheCollectionsFrameWork.TraversingListsAndCustomTypes;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 public class Application {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         List<String> cars = new ArrayList<String>();
 
         System.out.println("\n\nTYPES OF CARS\n\n");
@@ -29,7 +29,7 @@ public class Application {
         printCars(vehicles);
     }
 
-    public static void printCars(List vehicleList){
+    public static void printCars(List vehicleList) {
         for (Object car : vehicleList) {
             System.out.println(car);
         }
