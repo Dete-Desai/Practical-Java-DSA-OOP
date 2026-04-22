@@ -19,7 +19,7 @@ public class FindMaxMin {
         if (numbers == null || numbers.length == 0) {
             System.out.println("Input array cannot be null or empty.");
 
-            return new int[] { 0, 0 };
+            return new int[] { 0, 0 }; // Return default values (0, 0) for empty array case
         }
 
         int min = Integer.MAX_VALUE; // Initialize min to the largest possible integer value
@@ -27,9 +27,9 @@ public class FindMaxMin {
 
         for (int num : numbers) { // Iterate through each number in the array
             if (num < min)
-                min = num;
+                min = num; // Update min if the current number is smaller than the current min
             if (num > max)
-                max = num;
+                max = num; // Update max if the current number is larger than the current max
         }
 
         return new int[] { min, max }; // Return an array containing the minimum and maximum values
