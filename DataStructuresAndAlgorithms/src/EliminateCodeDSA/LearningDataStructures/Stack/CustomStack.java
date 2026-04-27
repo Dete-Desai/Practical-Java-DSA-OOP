@@ -81,7 +81,10 @@ class CustomStack {
 
     // Check if stack is empty
     public boolean isEmpty() {
-        return top == -1;
+        if (top == -1) {
+            return true;
+        }
+        return false;
     }
 
     // Get size of stack
