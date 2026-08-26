@@ -178,4 +178,16 @@ public class BinarySearchTrees {
     public Node getRoot() {
         return root;
     }
+
+    public void setRoot(Node root) {
+        this.root = root;
+    }
+
+    public void displayTree(Node node, int level) {
+        if (node != null) {
+            displayTree(node.rightChild, level + 1);
+            System.out.println(" ".repeat(level * 4) + node.key + " : " + node.value);
+            displayTree(node.leftChild, level + 1);
+        }
+    }
 }
